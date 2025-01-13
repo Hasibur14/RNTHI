@@ -1,25 +1,30 @@
 import React from 'react'
-import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
-import { IoLogoYoutube } from 'react-icons/io';
 import { IoMenuOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
+import logo from "../../assets/logo.png"
+import SocialMedia from '../SocialMedia/SocialMedia';
 
 const Sidebar = () => {
     return (
-        <div className='container mx-auto max-w-7xl flex py-2 z-50'>
+        <div className='container mx-auto max-w-7xl flex z-50'>
             {/* Sidebar menu */}
             <div className="drawer">
                 <input id="my-drawer" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content w-14">
                     {/* Page content here */}
                     <label htmlFor="my-drawer" className="drawer-button w-20">
-                        <IoMenuOutline className='text-4xl text-primary-light' />
+                        <IoMenuOutline className='text-4xl text-white hover:text-primary-light transition-colors duration-500' />
                     </label>
                 </div>
                 <div className="drawer-side mt">
                     <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-                    <ul className="menu bg-white text-primary-light text-xl font-mulish min-h-full w-80 p-4 pt-16">
+                    <ul className="menu bg-white text-primary-light text-xl font-mulish min-h-full w-72 p-4 ">
+                        <Link to="/">
+                            <img
+                                className='w-32 p-5 pb-5'
+                                src={logo}
+                                alt="rnthi" />
+                        </Link>
                         {/* Sidebar content here */}
                         <li>
                             <Link to="/">Home</Link>
@@ -30,25 +35,14 @@ const Sidebar = () => {
                         <li>
                             <Link to="/about">Contact</Link>
                         </li>
+                        <div className="mt-10">
+                            <SocialMedia />
+                        </div>
                     </ul>
                 </div>
             </div>
             {/* Social Media */}
-            <div className="flex space-x-4">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
-                    <FaFacebookF className="text-2xl p-1 rounded bg-primary-light text-white hover:bg-white hover:text-pribg-primary-light transition duration-500" />
-                </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn">
-                    <FaLinkedinIn className="text-2xl p-1 rounded bg-primary-light text-white hover:bg-white hover:text-pribg-primary-light transition duration-500" />
-                </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter">
-                    <FaXTwitter className="text-2xl p-1 rounded bg-primary-light text-white hover:bg-white hover:text-pribg-primary-light transition duration-500" />
-                </a>
-                <a href="mailto:info@example.com" target="_blank" rel="noopener noreferrer" aria-label="Email us">
-                    <IoLogoYoutube className="text-2xl p-1 rounded bg-primary-light text-white hover:bg-white hover:text-pribg-primary-light transition duration-500" />
-                </a>
-
-            </div>
+            <SocialMedia />
         </div>
     )
 }
