@@ -85,13 +85,18 @@ const Hero = () => {
     };
 
     return (
-        <div className="absolute w-full mx-auto">
-              {/* Sidebar */}
-              <div className="relative top-0 border-b z-[9999]">
-                <Sidebar />
-            </div>
+        <div className="relative w-full mx-auto font-mulish">
+
             {/* Slider Section */}
-            <div ref={sliderRef} className="relative keen-slider font-rajdhani h-auto">
+            <div
+                ref={sliderRef}
+                className="relative keen-slider font-rajdhani h-auto">
+
+                {/* Sidebar */}
+                <div className="absolute top-0 left-0 z-[9999] bg-black bg-opacity-20 p-4 w-full">
+                    <Sidebar />
+                </div>
+
                 {sliderData.map((slide, index) => (
                     <div
                         key={index}
@@ -103,10 +108,10 @@ const Hero = () => {
                             alt={slide.title}
                         />
                         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col text-center justify-center space-y-4 px-6 sm:px-8 lg:px-20">
-                            <h2 className="font-rajdhani text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold text-white">
+                            <h2 className="font-cinzel text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold text-white">
                                 {slide.title}
                             </h2>
-                            <p className="font-heebo text-md sm:text-lg md:text-2xl text-gray-300">
+                            <p className="font-mulish text-md sm:text-lg md:text-2xl text-gray-300">
                                 {slide.description}
                             </p>
                         </div>
@@ -114,10 +119,9 @@ const Hero = () => {
                 ))}
             </div>
 
-          
-
             {/* Navigation Controls */}
-            <div className="absolute text-center mt-10 justify-center items-center flex space-x-4 w-full">
+          <div className="relative w-full top-0 left-0">
+          <div className=" justify-center items-center flex space-x-4 w-full">
                 <button
                     onClick={handlePrevious}
                     className="bg-gray-800 text-white px-4 py-2 rounded-full hover:bg-gray-700"
@@ -146,8 +150,10 @@ const Hero = () => {
                     Next
                 </button>
             </div>
+          </div>
         </div>
     );
+
 };
 
 export default Hero;

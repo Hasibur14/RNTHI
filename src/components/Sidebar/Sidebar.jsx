@@ -14,12 +14,12 @@ const Sidebar = () => {
                 <div className="drawer-content w-14">
                     {/* Page content here */}
                     <label htmlFor="my-drawer" className="drawer-button w-20">
-                        <IoMenuOutline className='text-4xl text-white' />
+                        <IoMenuOutline className='text-4xl text-primary-light' />
                     </label>
                 </div>
                 <div className="drawer-side mt">
                     <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-                    <ul className="menu bg-primary-light text-primary-soft text-xl font-mulish min-h-full w-80 p-4 pt-16">
+                    <ul className="menu bg-white text-primary-light text-xl font-mulish min-h-full w-80 p-4 pt-16">
                         {/* Sidebar content here */}
                         <li>
                             <Link to="/">Home</Link>
