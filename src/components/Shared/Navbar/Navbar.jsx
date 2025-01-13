@@ -3,6 +3,9 @@ import { CgMenuRightAlt } from "react-icons/cg";
 import { FiChevronDown, FiChevronUp, FiMenu, FiX } from 'react-icons/fi';
 import { NavLink } from 'react-router-dom';
 import "./navbar.css";
+import logo from "../../../assets/logo.png"
+import { MdAddIcCall } from 'react-icons/md';
+
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -32,9 +35,11 @@ const Navbar = () => {
     return (
         <nav className="bg-white shadow">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-16">
+                <div className="flex justify-between items-center h-24">
                     <div className="flex-shrink-0">
-                        <h2 className='text-3xl font-bold'>Heaven</h2>
+                        <img className='w-20 h-20'
+                            src={logo}
+                            alt="rnthi" />
                     </div>
 
                     {/* Menu for larger screens */}
@@ -74,8 +79,9 @@ const Navbar = () => {
                     </div>
 
                     <div className="hidden md:flex">
-                        <button className="ml-4 border-2 border-green-500 text-green-500 bg-transparent hover:bg-green-600 font-bold hover:text-white  px-4 py-2 rounded-md transition">
-                            Sign Up
+                        <button className="btn uppercase ">
+                            <MdAddIcCall />
+                         Appli Now
                         </button>
                     </div>
 
