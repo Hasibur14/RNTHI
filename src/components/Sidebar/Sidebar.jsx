@@ -7,19 +7,19 @@ import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
-        <div className='container mx-auto max-w-7xl flex py-2'>
+        <div className='container mx-auto max-w-7xl flex py-2 z-50'>
             {/* Sidebar menu */}
             <div className="drawer">
                 <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-                <div className="drawer-content">
+                <div className="drawer-content w-14">
                     {/* Page content here */}
-                    <label htmlFor="my-drawer" className="drawer-button">
-                        <IoMenuOutline className='text-4xl' />
+                    <label htmlFor="my-drawer" className="drawer-button w-20">
+                        <IoMenuOutline className='text-4xl text-white' />
                     </label>
                 </div>
                 <div className="drawer-side mt">
                     <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-                    <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4 pt-16">
+                    <ul className="menu bg-primary-light text-primary-soft text-xl font-mulish min-h-full w-80 p-4 pt-16">
                         {/* Sidebar content here */}
                         <li>
                             <Link to="/">Home</Link>
@@ -28,7 +28,7 @@ const Sidebar = () => {
                             <Link to="/about">About</Link>
                         </li>
                         <li>
-                            <Link to="/about">Comtact</Link>
+                            <Link to="/about">Contact</Link>
                         </li>
                     </ul>
                 </div>

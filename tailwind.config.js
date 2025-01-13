@@ -16,7 +16,7 @@ export default {
         primary: {
           light: "#993128",
           dark: "#33100D",
-          soft: "#0d0d3d",
+          soft: "#F2E39B",
         },
       },
     },
