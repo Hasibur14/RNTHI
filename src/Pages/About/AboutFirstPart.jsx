@@ -229,7 +229,7 @@ const AboutFirstPart = ({ part1 }) => {
               language—food.
             </p>
             <p className="font-mulish font-normal text-[12px] md:text-[18px] text-[#525252] text-justify leading-[20px] md:leading-[28px] mt-2 md:mt-5">
-              At <span className="font-bold">RNTHI</span>, you'll find all the ingredients you need to create a
+              At <span className="font-bold text-[13px]">RNTHI</span>, you'll find all the ingredients you need to create a
               college experience that's uniquely yours—guided by your passions,
               your interests, and your imagination. Each of our campuses offers
               a distinct favor, a unique feel; yet at everyone, you'll be part
