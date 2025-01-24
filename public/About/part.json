@@ -1,0 +1,93 @@
+[
+    {   "id": 1,
+        "page": {
+          "title": "About Us",
+          "gif": "https://i.ibb.co.com/DtWk4p0/Chingri-ezgif-com-resize.gif",
+          "header": {
+            "main_title": "A Legacy of Culinary Excellence"
+          },
+          "main_section": {
+            "image": {
+              "src": "https://i.ibb.co.com/fQtdtgZ/Section-male-chef-with-assistant-standing-in-a-kitchen-preparing-food-in-a-luxury-restaurant-e169176.png",
+              "alt": "Group of chefs in the kitchen"
+            },
+            "short_title": "Chef Academy & Cooking School",
+            "headline": "Greetings from the Institute of Culinary Education",
+            "description": "RH Tourism and Hospitality Management Institute (RHTMI) is an approved center from the City and Guilds of London Institute, UK and nationally affiliated with BTEB and NSDA of Bangladesh. Located in Atish Nagar, Dhaka, and South Khulshi, Chittagong, we offer comprehensive courses in tourism and hospitality management, including food preparation and culinary arts, to embark on a journey of excellence and innovation in the hospitality industry."
+          },
+          "about_section": {
+            "small_title": "About RNTHI",
+            "title": "Master at Culinary Arts",
+            "description": "RH Tourism and Hospitality Management Institute (RHTMI), approved by the City and Guilds, UK, and affiliated with BTEB and NSDA, offers premier tourism, hospitality, and culinary courses in Dhaka and Chittagong.",
+            "image": {
+              "src": "https://i.ibb.co.com/3pLs9Vm/3b503157087155b5437c9e0d3850e793.jpg",
+              "alt": ""
+            },
+            "mission": "To inspire and equip individuals with the culinary skills and knowledge to pursue successful careers in the food industry.",
+            "vision": "To be the leading culinary academy, recognized for excellence in education, innovation, and producing world-class chefs.",
+            "values": "We strive for the highest standards of education and training, providing a rigorous and enriching learning experience."
+          },
+
+        "pageTitle": "Explore Our Academy Locations",
+        "headerImage": "URL_TO_HEADER_IMAGE",
+        "locations1": 
+          {
+            "city": "Dhaka",
+            "address": "21/A, Road-2, Block-A, Jahurul Islam City, Rampura Bridge, Dhaka 1212",
+            "email": "rnhi.bd@gmail.com",
+            "phone": "+880-02-58150707",
+            "mapImage": {
+              "src": "https://i.ibb.co.com/SfyzXKj/vecteezy-doodle-freehand-drawing-of-bangladesh-map-18754370-1.png",
+              "alt": ""
+            },
+            "mapLink": "URL_TO_MAP_DHAKA"
+          },
+          "locations2":{
+            "city": "Chittagong",
+            "address": "RN Tourism & Hospitality Management Institute, South Khulshi, Chittagong, Bangladesh",
+            "email": "rnhi.bd@gmail.com",
+            "phone": "+88 - 015-52478007",
+            "mapImage": {
+              "src": "https://i.ibb.co.com/khqgCY4/vecteezy-doodle-freehand-drawing-of-bangladesh-map-18754370-2.png",
+              "alt": ""
+            },
+            
+            "mapLink": "URL_TO_MAP_CHITTAGONG"
+          }
+        ,
+        "communitySection": {
+          "image": {
+              "src": "https://i.ibb.co.com/CzKWks7/Section-3.png",
+              "alt": ""
+            }
+        },
+        "accreditation": {
+          "title": "Accreditation and Recognition",
+          "image1": {
+                "src": "https://i.ibb.co.com/5Kw56YW/WORLDCHEFS-Logo-1.png",
+                "alt": ""
+                
+              },
+          "image2": {
+                "src": "https://i.ibb.co.com/MSXcN2J/RPL-BTEB-NSDA2-1.png",
+                "alt": ""
+                
+              },
+          "image3": {
+                "src": "https://i.ibb.co.com/ZYKv5RK/RPL-BTEB-NSDA-3.png",
+                "alt": ""
+                
+              },
+          "image4": {
+                "src": "https://i.ibb.co.com/ZgJzS01/RPL-BTEB-NSDA-4.png",
+                "alt": ""
+                
+              }
+        }
+      }
+        
+      
+        }
+      
+]
+

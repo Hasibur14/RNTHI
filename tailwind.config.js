@@ -11,6 +11,7 @@ export default {
       fontFamily: {
         cinzel: ['Cinzel', 'sans-serif'],
         mulish: ['Mulish', 'sans-serif'],
+        italiana: ["Italiana", 'serif']
       },
       colors: {
         primary: {
